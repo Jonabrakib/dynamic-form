@@ -1,0 +1,113 @@
+section{
+	background: url(../img/bg-01.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+.no-gutter{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.form-section-1{
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.form-section-2{
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+img{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	padding-top: 150px;
+	padding-bottom: 142px;
+	border-left: 2px solid #846add;
+}
+h1{
+	color: #111111;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.form-control{
+	width: 80%;
+	margin: 5px 0px;
+	color: #666666;
+	background-color: #e6e6e6;
+	font-family:  Montserrat-Bold;
+	font-size: 15px;
+	line-height: 1.5;
+	text-indent: 10px;
+}
+.name{
+	position: relative;
+}
+.email{
+	position: relative;
+}
+.number{
+	position: relative;
+}
+.user{
+	position: absolute;
+	left: 6px;
+    top: 132px;
+    font-size: 16px;
+    color: #666666;
+}
+.fa-envelope{
+	position: absolute;
+	left: 6px;
+    top: 180px;
+    font-size: 13px;
+    color: #666666;
+
+}
+.fa-mobile{
+	position: absolute;
+	left: 6px;
+    top: 220px;
+    font-size: 20px;
+    color: #666666;
+}
+.gender{
+	padding-top: 10px;
+}
+.gender input{
+	margin-left: 88px;
+}
+.lang{
+	padding-top: 10px;
+}
+.lang input{
+	margin-left: 5px;
+	margin-bottom: 25px;
+}
+.dob{
+	padding-top: 10px;
+}
+.btn-submit{
+	background-color: #e6e6e6;
+	color: #ffffff;
+	width: 80%;
+	height: 50px;
+    border-radius: 25px;
+    background: #846add;
+    font-family: Montserrat-Bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    border: none;
+}
+.btn-submit:hover{
+	background-color: #333333;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}

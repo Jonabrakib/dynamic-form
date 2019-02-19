@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Main css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 no-gutter">
+            <div class="form-section-1">
+              <img src="img/img-01.png">
+            </div>
+            
+          </div>
+          <div class="col-md-6 no-gutter">
+            <div class="form-section-2">
+              <h1>Contact</h1>
+              <form class="form-group" action="form-validate.php" method="post">
+                <div>
+                  <input type="text" name="name" placeholder="Name" autocomplete="off" class="form-control name" required="required">
+                  <div class="user">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  </div>
+                  
+                </div>
+                <div>
+                  <input type="email" name="email" placeholder="Email" autocomplete="off" class="form-control email" required="required">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <input type="number" name="number" placeholder="Phone" autocomplete="0ff" class="form-control number" required="required">
+                  <i class="fa fa-mobile" aria-hidden="true"></i>
+                </div>
+                <div class="gender">
+                  <label><h5>Gender:</h5></label><br>
+                  <input type="radio" name="gender" value="Male">Male<br>
+                  <input type="radio" name="gender" value="Female">Female<br>
+                </div>
+                <div class="lang">
+                  <label><h5>Language You know:</h5></label><br>
+                  <input type="checkbox" name="language" value="C">C
+                  <input type="checkbox" name="language" value="C#">C#
+                  <input type="checkbox" name="language" value="Python">Python
+                </div>
+                <div class="dob">
+                  <label><h5>Date of Birth: </h5></label>
+                  <input type="date" name="dob">
+                </div>
+                <input type="submit" name="submit" value="Submit" class="btn-submit">
+                
+                
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
